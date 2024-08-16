@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../assets/tokyo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 97vw;
+  height: 96vh;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.237);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: #123643 13.5px;
+  -webkit-backdrop-filter: blur(13.5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.titulo {
+  font-size: 14vh;
+  color: white;
+  letter-spacing: 4vw;
+  text-shadow: 2px 2px black;
+  display: inline-block;
+  cursor: pointer;
+}
+
+span {
+  display: inline-block;
+  transition: color 0.1s, transform 0.3s;
+}
+
+span:hover {
+  color: #123643;
+  transform: scale(1.2);
+}
+
+/*# sourceMappingURL=style.css.map */
